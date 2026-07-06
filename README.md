@@ -174,6 +174,13 @@ http://localhost:5173
 ## ER Diagram
 
 ![ER Diagram](ER_Diagram.png)
+# Authentication
+
+This version of TeamFlow does not implement user authentication.
+
+The application starts directly with the project dashboard, allowing users to manage projects and tasks without login credentials.
+
+Authentication and role-based access control are planned as future enhancements.
 
 # 📈 Future Improvements
 
