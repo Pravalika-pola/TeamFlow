@@ -1,23 +1,22 @@
-# 🚀 TeamFlow - Project Management System
+TeamFlow - Project Management System
 
-## 📌 Project Overview
+Project Overview
 
 TeamFlow is a full-stack project management application developed using React, Node.js, Express.js, and SQLite. It enables teams to efficiently manage projects, organize tasks, monitor progress, and track deadlines through a clean and responsive interface.
 
 The application demonstrates a complete client-server architecture with REST APIs and persistent database storage.
 
----
 
-# ✨ Features
+Features
 
-## Project Management
+Project Management
 
 - Create Project
 - Edit Project
 - Delete Project
 - Search Projects
 
-## Task Management
+Task Management
 
 - Create Task
 - Delete Task
@@ -25,14 +24,14 @@ The application demonstrates a complete client-server architecture with REST API
 - Priority Levels (High, Medium, Low)
 - Due Date Tracking
 
-## Dashboard
+Dashboard
 
 - Total Projects
 - Total Tasks
 - Completed Tasks
 - Overall Progress Percentage
 
-## User Interface
+User Interface
 
 - Responsive Design
 - Modern Dashboard
@@ -42,28 +41,24 @@ The application demonstrates a complete client-server architecture with REST API
 
 ---
 
-# 🛠 Tech Stack
+Tech Stack
 
-## Frontend
+Frontend
 
 - React
 - Vite
 - CSS
 
-## Backend
+Backend
 
 - Node.js
 - Express.js
 
-## Database
+Database
 
 - SQLite
 
----
-
-# 📂 Project Structure
-
-```
+Project Structure
 
 TeamFlow
 │
@@ -85,47 +80,31 @@ TeamFlow
 ├── Database_Schema.md
 └── Design_Decisions.md
 
-```
 
----
+Installation
 
-# 🚀 Installation
+Backend
 
-## Backend
-
-```bash
 cd backend
 npm install
 npm run dev
-```
 
 Backend URL
-
-```
 http://localhost:3001
-```
 
----
+Frontend
 
-## Frontend
-
-```bash
 cd frontend
 npm install
 npm run dev
-```
 
 Frontend URL
-
-```
 http://localhost:5173
-```
-
 ---
 
-# 📡 REST API
+REST API
 
-## Projects
+Projects
 
 | Method | Endpoint |
 |---------|----------|
@@ -134,9 +113,7 @@ http://localhost:5173
 | PUT | /projects/:id |
 | DELETE | /projects/:id |
 
----
-
-## Tasks
+Tasks
 
 | Method | Endpoint |
 |---------|----------|
@@ -147,15 +124,15 @@ http://localhost:5173
 
 ---
 
-# 🗄 Database
+Database
 
-## Projects
+Projects
 
 - id
 - name
 - description
 
-## Tasks
+Tasks
 
 - id
 - projectId
@@ -165,13 +142,13 @@ http://localhost:5173
 - dueDate
 
 ---
-## System Architecture
+System Architecture
 
 ![Architecture](Architecture_Diagram.png)
 
 ---
 
-## ER Diagram
+ER Diagram
 
 ![ER Diagram](ER_Diagram.png)
 # Authentication
@@ -182,7 +159,7 @@ The application starts directly with the project dashboard, allowing users to ma
 
 Authentication and role-based access control are planned as future enhancements.
 
-# 📈 Future Improvements
+# Future Improvements
 
 - Authentication
 - Role-Based Access Control
@@ -194,7 +171,7 @@ Authentication and role-based access control are planned as future enhancements.
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **PravalikaPola**
 
